@@ -77,7 +77,7 @@ function fetchRecipes(keyword, numberOfResults, intolerances) {
         method: "GET",
     })
     .then(function(response){
-        console.log(response);
+       // console.log(response);
 
         for (x = 0; x < 4; x++) {
           var cardDiv = $("<div class='cell shrink callout primary text-left'>");
